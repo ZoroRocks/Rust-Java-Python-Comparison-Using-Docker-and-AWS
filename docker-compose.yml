@@ -7,3 +7,8 @@ services:
     build: pythonprogram
     depends_on:
       - javacontainer
+
+  rustcontainer:
+    build: rustprogram
+    depends_on:
+      - pythoncontainer

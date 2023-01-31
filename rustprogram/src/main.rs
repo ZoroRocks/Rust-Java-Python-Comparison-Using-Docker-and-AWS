@@ -13,6 +13,5 @@ fn main() {
     let t_init = SystemTime::now();
     let num = 30000;
     let result = factorial(num);
-    println!("The factorial of {} is {}", num, result);
    println!("{}", t_init.elapsed().unwrap().as_nanos());
 }
