@@ -20,5 +20,5 @@ fn main() {
 
     let t_init3 = SystemTime::now();
     let _result3 = factorial(30000);
-    println!("Rust, N = 30000, time:{}", t_init2.elapsed().unwrap().as_nanos());
+    println!("Rust, N = 30000, time:{}", t_init3.elapsed().unwrap().as_nanos());
 }
